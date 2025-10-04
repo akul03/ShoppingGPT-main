@@ -3,19 +3,21 @@
 ````markdown
 # 🧠 ShopSense AI
 
-**ShopSense AI** is a lightweight, LLM-powered shopping assistant that helps users find products, ask questions, and get personalized recommendations using Google’s Gemini model and RAG.
+**ShopSense AI** is a lightweight AI shopping assistant that helps users find products, ask questions, and get personalized recommendations — powered by **Google Gemini** and **RAG (Retrieval-Augmented Generation)**.
 
 ---
 
 ## ⚙️ Setup
+
 ```bash
 git clone https://github.com/yourusername/ShopSenseAI.git
 cd ShopSenseAI
+python -m venv venv
+source venv/bin/activate        # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
-python -m venv venv && source venv/bin/activate
 ````
 
-Create a `.env` file with:
+Create a `.env` file with your API key:
 
 ```
 GOOGLE_API_KEY=your_google_api_key
@@ -41,15 +43,18 @@ Visit **[http://localhost:5000](http://localhost:5000)** to start chatting.
 
 ## ✨ Features
 
-* 🧠 Google Gemini-powered conversations
-* 🔍 Smart product + policy search (SQLite + FAISS)
-* 💬 Simple Flask web interface
+* 🧠 Conversational AI powered by Google Gemini
+* 🔍 Smart product & policy search (SQLite + FAISS)
+* 💬 Clean, responsive Flask web interface
 
 ---
 
 ## 📜 License
 
-MIT License © 2025 ShopSense AI
+**MIT License © 2025 ShopSense AI**
 
 ```
+
+---
+
 
